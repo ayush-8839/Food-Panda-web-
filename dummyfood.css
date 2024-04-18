@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.a {
+  background-color: antiquewhite;
+}
+
+/* css for nav bar start*/
+nav {
+  background: white;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  position: fixed;
+  z-index: 1;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: bold;
+  color: black;
+  padding: 0 10px;
+}
+
+.menu button {
+  padding: 9px -1px;
+  border: rgb(20, 19, 19);
+  background: linear-gradient(to right, yellow, red);
+  border-radius: 50px;
+  color: white;
+  width: 175px;
+  font-weight: bold;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 0px;
+  height: 45px;
+}
+
+.menu button:hover {
+  background: linear-gradient(to left, green, black);
+}
+
+input {
+  margin-left: 10px;
+  color: black;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: medium;
+  background: aliceblue;
+}
+
+.img {
+  padding: 100px;
+  background: url(https://www.foodpanda.com/wp-content/uploads/2023/02/fp-home.jpg);
+  width: 100%;
+  height: 600px;
+}
+
+.img .head h1 {
+  height: 122px;
+  width: 500px;
+  font-size: 62px;
+  margin-top: 105px;
+  margin-left: 100px;
+  color: #4e3724;
+}
+
+.para h2 {
+  text-align: center;
+  padding: 80px;
+  font-size: 16px;
+  margin: 30px 60px;
+  width: 75%;
+  color: #343b46;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1;
+  letter-spacing: -0.025em;
+  text-align: justify;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: bold;
+}
+.photo h2 {
+  margin-left: 887px;
+  margin-right: 250px;
+  margin-top: -341px;
+  font-size: 43px;
+}
+
+.photo img {
+  width: 630px;
+  height: 350px;
+  margin-left: 109px;
+  display: flex;
+  border-radius: 10px;
+}
+.photo p {
+  margin-left: 887px;
+  margin-right: 226px;
+  font-size: 18px;
+  margin-top: 50px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+.photo button {
+  margin-left: 970px;
+  margin-right: 226px;
+  font-size: 18px;
+  margin-top: 25px;
+  width: 193px;
+  height: 43px;
+  border-radius: 20px;
+  background: #fe5c90;
+  color: black;
+}
+.flex {
+  margin-top: 450px;
+}
+.flex h2 {
+  margin-left: 120px;
+  margin-right: 250px;
+  margin-top: -341px;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.flex img {
+  width: 630px;
+  height: 300px;
+  margin-left: 771px;
+  margin-top: -150px;
+  display: flex;
+  border-radius: 10px;
+}
+.flex p {
+  margin-left: 120px;
+  margin-right: 226px;
+  font-size: 18px;
+  margin-top: 0px;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+.thirdpara {
+  margin-top: 50px;
+}
+
+.thirdpara h2 {
+  margin-left: 833px;
+  margin-right: 198px;
+  font-size: 45px;
+  margin-top: -300px;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+.thirdpara img {
+  width: 630px;
+  height: 350px;
+  margin-left: 104px;
+  display: flex;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.thirdpara p {
+  margin-left: 835px;
+  margin-right: 105px;
+  font-size: 18px;
+  margin-top: 50px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.middleheading {
+  margin-top: 100px;
+  font-size: clamp(1.75rem, 1vw, 2.5rem);
+  padding: 100px;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 1.25;
+  letter-spacing: -0.023em;
+  font-weight: inherit;
+}
+
+.middleheading p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/* footer csss*/
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: cursive;
+}
+
+footer {
+  padding: 80px 5% 70px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 3.5rem;
+  background: #1a242f;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.footer-content h4 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+}
+
+.footer-content li {
+  margin-bottom: 10px;
+}
+
+.footer-content li a {
+  display: block;
+  color: #d6d6d6;
+  font-size: 15px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+}
+
+.footer-content li a:hover {
+  transform: translateY(-3px) transletex(-5px);
+  color: #fff;
+}
+
+.footer-content p {
+  color: #d6d6;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 20px 0;
+}
